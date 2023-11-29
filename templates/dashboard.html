@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Redes3</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="item_contenedor">
+            <canvas id="el_KY_001"></canvas>
+        </div>
+        <div class="item_contenedor">
+            <canvas id="el_KY_021"></canvas>
+        </div>
+        <div class="item_contenedor">
+            <canvas id="el_KY_032"></canvas>
+        </div>
+        <div class="item_contenedor">
+            <div class="json_decoded">
+                <button id="i_inter">Iniciar</button>
+                <button id="d_inter">Detener</button>
+                <button id="borrar">Borrar</button>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/graficas.js')}}"></script>
+</body>
+
+</html>

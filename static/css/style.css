@@ -1,0 +1,28 @@
+.contenedor {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.item_contenedor {
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #CCC;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+button{
+    width: 90%;
+    font-size: 32px;
+    padding: 20px 0;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
